@@ -1,0 +1,103 @@
+Hello food fight listeners and Chef enthusiasts!  This is Nathen Harvey with "What's Cooking", your source for all the latest 
+cookbook news
+
+##################################
+The nagios cookbook, now at version 1.2.2, has received a lot of updates lately:
+
+The nagios cookbook, now at version 1.2.2, has received a lot of updates lately.  Previously you had to edit the default templates
+to add custom checks.  Now you just need to add attributes, databag items, and utilize the new lightweight resource provider (LWRP) 
+for defining NRPE checks.
+
+Big thanks to Jake Vanderdray from CustomInk for making monitoring with nagios suck a little bit less!
+
+##################################
+
+Matt Ray and Joshua Timberman, from OpsCode, have released an Annoyances cookbook.  This cookbook fixes a number of minor operating 
+system-based annoyances. The are recipes are platform-specific.
+
+On Ubuntu the cookbook will freshen up the apt repository and turn off AppArmor and byobu (beeyo-bu)
+
+On Red Hat flavors including CentOS and scientific linux, the cookbook will delete any preexisting firewall rules, turn off SELinux,
+uninstall apache, and remove any .bash_logout
+
+One handy feature of this cookbook is that it will remove itself from the node's runlist on completion.  
+
+Are there things that annoy you about your target Operating System?  Fork this cookbook and submit a pull request!
+
+##################################
+
+Sean O'Meara has released a couple of new cookbooks.  The pki cookbook which is a proof of concept PKI implementation, powered by inter-node convergence and stateful resource providers.
+
+He's also released version 0.10. of the etchosts cookbook which installs and configures, you guessed it!,  a node's /etc/hosts file.
+
+##################################
+
+Jamie Winsor released version 0.9.3 of the artifact cookbook.  Use this to provide the Artifact Deploy LWRP to your cookbooks. 
+
+What is the Artifact deploy lwrp, you ask? 
+
+Well, it can be used to package build artifacts into a tar ball and deploy them. Artifacts are extracted from the package and managed 
+in a deploy directory in the same fashion you've seen in the Opscode deploy resource or Capistrano's default deploy strategy. 
+
+##################################
+
+Fletcher Nichol has release version 0.2.0 of the vagrant_extras cookbook which includes some extra fixes and shims for running 
+your recipes in a Vagrant VM.
+
+By the way, did you hear that Vagrant has reached the 1.0 release milestone?
+
+##################################
+
+Nacer Laradji has released version 0.0.25 of the zabbix cookbook. 
+
+##################################
+
+Eric Wolfe's gnome and x-windows cookbooks are now both at version 0.0.2.  Both of these cookbooks are used as requirements for Oracle.
+
+##################################
+
+Wes Morgan released version 1.0.4 of the linode cookbook.  This is a collection of useful recipes for setting up Linodes
+
+##################################
+
+Many of the Opscode cookbooks were also recently updated. One of the changes that was recommended during the Opscode Community Summit
+was to split up the opscode/cookbooks repository in to individual repositories, one for each cookbook. 
+
+Much of the groundwork for doing this has been added to the cookbooks in this round of releases. 
+
+Changes includes adding LICENSE and CONTRIBUTING files to each cookbook and moving the "changes" section from the README to a new 
+CHANGELOG markdown file with each cookbook.  Some noteworthy updates include:
+
+* iis now has support for adding apps and a few other fixes and improvements
+* auto-clustering support was added to the rabbitmq cookbook
+* the ssh_known_hosts cookbook now allows for adding arbitrary host keys from a data bag
+* and a number of cookbooks now support additional platforms:
+* chef-client now includes  support mac_os_x_server
+* memcached now includes support for centos/rhel
+* passenger_apache2 now includes support for archlinux
+
+Other cookbooks updated in this release include:
+
+* apt
+* bluepill
+* chef_handler
+* database
+* java
+* nginx
+* pacman
+* pdns
+* postgresql
+* runit
+* windows
+* and users
+
+For additional details, see Joshua Timberman's "Groundhog Edition" cookbook release announcement that was posted to the chef user mailing list.
+##################################
+
+Man, that's a lot of updates!  The Chef community really is great! 
+
+Please accept my humblest apologies if I've mispronounced your name.
+
+Do you have cookbook news that you'd like to share or feedback on the show?  Please drop a line to foodfighteshow@gmail.com!
+
+This has been Nathen Harvey with, "What's Cooking," your source for all the latest in cookbook news.

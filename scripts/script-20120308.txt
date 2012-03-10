@@ -2,7 +2,6 @@ Hello food fight listeners and Chef enthusiasts!  This is Nathen Harvey with "Wh
 cookbook news
 
 ##################################
-The nagios cookbook, now at version 1.2.2, has received a lot of updates lately:
 
 The nagios cookbook, now at version 1.2.2, has received a lot of updates lately.  Previously you had to edit the default templates
 to add custom checks.  Now you just need to add attributes, databag items, and utilize the new lightweight resource provider (LWRP) 

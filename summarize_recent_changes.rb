@@ -8,7 +8,8 @@ require 'net/http'
 @db = @con['opscode']
 @cookbooks = @db['cookbooks']
 
-lastest_cookbooks = @cookbooks.find.sort( [["updated_at", -1 ]] ).limit(50)
+# lastest_cookbooks = @cookbooks.find.sort( [["updated_at", -1 ]] )
+lastest_cookbooks = @cookbooks.find.sort( [["updated_at", -1 ]] ).limit(150)
 open_cookbooks = []
 open_users = []
 lastest_cookbooks.each do |cb|

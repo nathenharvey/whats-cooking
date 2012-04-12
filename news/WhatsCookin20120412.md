@@ -1,4 +1,6 @@
-## News:
+Hello food fight listeners and Chef enthusiasts! This is Nathen Harvey with "What's Cookin'"
+
+## In the News:
 
 * [Seth Falcon](http://twitter.com/sfalcon), Development Lead at Opscode, recently published his presentation, "[How to Migrate a Web App to Erlang, Change Databases, and Not Have Your Customers Notice](http://speakerdeck.com/u/sfalcon/p/how-to-migrate-a-web-app-to-erlang-change-databases-and-not-have-your-customers-notice)."  Check out the slides over on Speaker Deck.
 
@@ -18,6 +20,8 @@
 
 * The next batch of [#ChefConf](http://twitter.com/chefconf) speakers and sessions was recently announced.  Checkout [chefconf.opscode.com](http://chefconf.opscode.com) for details and book you ticket today!
 
+
+## Cookbook Updates
 
 Now on to the Cookbook news.  Did you know that there are over 400 cookbooks on the community site?  More than 30 were updated in the last 2 weeks.  Here's a quick run down on the latest cookbook updates.
 
@@ -40,14 +44,10 @@ Now on to the Cookbook news.  Did you know that there are over 400 cookbooks on 
   
   * Chris also released a runlist_modifiers cookbook.
   * This cookbook provides helpers to allow or disallow recipes from being loaded via the run list based on node attributes.
-  * Restricted recipes are recipes which are not allowed to be run.
-  * Allowed recipes are recipes which are allowed to be loaded within the run list. 
 
 ### [discovery](http://community.opscode.com/cookbooks/discovery) v0.0.6 - [fujin](http://community.opscode.com/users/fujin)
   
-  * AJ Christensen released updates to the discover cookbook.  This cookbook installs and configures the discovery library.
-  * You can use the #search method to locate a role, optionally restricted to the environment.
-  * You can use the #ipaddress method to automatically grab a prioritised ipaddress from a node.
+  * AJ Christensen released updates to the discovery cookbook.  This cookbook installs and configures the discovery library that lets you search for nodes and lets you find an appropriate ipaddress for a node.
 
 ### [jenkins](http://community.opscode.com/cookbooks/jenkins) v0.6.3 - [fujin](http://community.opscode.com/users/fujin)
 
@@ -60,8 +60,8 @@ Now on to the Cookbook news.  Did you know that there are over 400 cookbooks on 
 
 ### [cpan](http://community.opscode.com/cookbooks/cpan) v0.0.6 - [melezhik](http://community.opscode.com/users/melezhik)
   
-  * Alexey Melezhik released updates to the cpan cookbook.  
-  * The recent changes replace execute resource by bash resources for less verbosity in logs, improve after-install summary, and compact log messages
+  * Alexey Melezhik released updates to the cpan cookbook.
+  * The recent changes make improvements to the logs and after-install summary.
 
 ### [js](http://community.opscode.com/cookbooks/js) v0.0.5 - [melezhik](http://community.opscode.com/users/melezhik)
   
@@ -70,15 +70,13 @@ Now on to the Cookbook news.  Did you know that there are over 400 cookbooks on 
 ### [rbenv](http://community.opscode.com/cookbooks/rbenv) v1.2.2 - [reset](http://community.opscode.com/users/reset)
   
   * Jamie Winsor made a bunch of updates to the rbenv cookbook and merged in contributions from Pierre Baillet
-  * support for ubuntu & debian
+  * The cookbook now supports ubuntu & debian,
   * Installs an rbenv Ohai plugin onto the node to automatically populate attributes about the rbenv installation
-  * Add foodcritic "critic" test to Thorfile
-  * Updated based on suggestions made by foodcritic
+  * and includes updates based on suggestions made by foodcritic
 
 ### [gdash](http://community.opscode.com/cookbooks/gdash) v0.0.1 - [sme](http://community.opscode.com/users/sme)
   
   * Sean Escriva published gdash, a cookbook to automatically deploy the Gdash web interface for Graphite.
-  * This cookbook currently sets up gdash and a basic runit service. Graph creation is left to the user.
 
 ### [mg](http://community.opscode.com/cookbooks/mg) v1.0.0 - [sme](http://community.opscode.com/users/sme)
   
@@ -99,38 +97,28 @@ Now on to the Cookbook news.  Did you know that there are over 400 cookbooks on 
 
 ### [jruby](http://community.opscode.com/cookbooks/jruby) v0.2.3 - [jlbfalcao](http://community.opscode.com/users/jlbfalcao)
   
-  * Jorge Falcao updated the jruby cookbook.  The latest release includes contributions from Michael van Rooijen
-  * Updates the default JRuby installation from 1.6.6 to 1.6.7.
-  * Set encoding to UTF-8 to fix Ruby 1.9 ASCII issue.
+  * Jorge Falcao updated the jruby cookbook with contributions from Michael van Rooijen
+  * JRuby 1.6.7 is now the default
 
 ### [percona-install](http://community.opscode.com/cookbooks/percona-install) v0.0.6 - [nathenharvey](http://community.opscode.com/users/nathenharvey)
 
-  * The percona-install cookbook was updated thanks to some requests from Miah Johnson.  The cookbook now installs Percona's monitoring tools and xtrabackup
+  * The percona-install cookbook was updated thanks to some requests from Miah Johnson.  The cookbook now installs Percona's monitoring tools and xtrabackup.
 
 ### [psiprobe](http://community.opscode.com/cookbooks/psiprobe) v0.1.4 - [hasanb](http://community.opscode.com/users/hasanb)
 
-  * Hasan Bramwell has published psiprobe, a cookbook that obtains and installs the [Psi Probe](http://code.google.com/p/psi-probe/) war file in Tomcat.
+  * Hasan Bramwell has published the psiprobe cookbook.
   * This is Hasan's first cookbook on the community site and he's really interested in hearing your comments and receiving pull requests.
 
 ### [redisio](http://community.opscode.com/cookbooks/redisio) v1.0.1 - [geekbri](http://community.opscode.com/users/geekbri)
 
   * Brian Bianco has released a new redis cookbook named, "redisio"
-  * From what I can tell, we now have four different redis cookbooks on the community site:
+  * From what I can tell, there are now four different redis cookbooks on the community site:
 
   * [redis-package](http://community.opscode.com/cookbooks/redis-package) from  [coderanger](http://community.opscode.com/users/coderanger)
   * [redis](http://community.opscode.com/cookbooks/redis) from [mrflip](http://community.opscode.com/users/mrflip)
   * [redis2](http://community.opscode.com/cookbooks/redis2) from  [avishai](http://community.opscode.com/users/avishai)
   * [redisio](http://community.opscode.com/cookbooks/redisio) from [geekbri](http://community.opscode.com/users/geekbri)
   
-  
-## Mentioned Last Time
-
-Some cookbooks mentioned in the last episode were also updated including:
-
-* [bag_config](http://community.opscode.com/cookbooks/bag_config) v1.0.1 from [chrisroberts](http://community.opscode.com/users/chrisroberts)
-* [certificate](http://community.opscode.com/cookbooks/certificate) v0.0.4 from [atomic-penguin](http://community.opscode.com/users/atomic-penguin)
-* [artifact](http://community.opscode.com/cookbooks/artifact) v0.9.4 from [reset](http://community.opscode.com/users/reset)
-
 ## Opscode Cookbook Releases
 
 Joshua Timberman recently posted about [recent opscode cookbook releases](http://www.opscode.com/blog/2012/04/10/cookbook-releases/) on the [Opscode Blog](http://www.opscode.com/blog). Since moving the cookbooks to individual repos, Opscode has received over 50 pull request.  Joshua also mentioned recently that there are more than 90 contributors to Opscode's cookbooks.
@@ -142,9 +130,9 @@ Cookbooks included in the latest round of releases:
 * [freebsd](http://community.opscode.com/cookbooks/freebsd) v0.0.2
 * [java](http://community.opscode.com/cookbooks/java) v1.5.0
 * [nagios](http://community.opscode.com/cookbooks/nagios) v1.2.6
--* [nginx](http://community.opscode.com/cookbooks/nginx) v0.101.0
--* [postfix](http://community.opscode.com/cookbooks/postfix) v.1.0.0
--* [sudo](http://community.opscode.com/cookbooks/sudo) v1.1.0
+* [nginx](http://community.opscode.com/cookbooks/nginx) v0.101.0
+* [postfix](http://community.opscode.com/cookbooks/postfix) v.1.0.0
+* [sudo](http://community.opscode.com/cookbooks/sudo) v1.1.0
 * [varnish](http://community.opscode.com/cookbooks/varnish) v0.9.0
 
 Do you have cookbook news that you'd like to share or feedback on the show?  Please drop a line to info@foodfightshow.org

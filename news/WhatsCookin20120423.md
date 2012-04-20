@@ -16,9 +16,6 @@
 
 ## Cookbook Updates
 
-Now on to the Cookbook news.  There are now 449 cookbooks on the community site.  More than 30 were updated in the last 2 weeks.  Here's a quick run down on the latest cookbook updates.
-
-## Opscode Cookbook Releases
 ### [ark](http://community.opscode.com/cookbooks/ark) v0.0.1 - [jtimberman](http://community.opscode.com/users/jtimberman)
  * Joshua Timberman [@jtimberman](http://twitter.com/jtimberman), Bryan Berry [@bryanwb](http://twitter.com/bryanwb)
  * new version w/ put, dump, cherry_pick, install, and build_with_make_install actions

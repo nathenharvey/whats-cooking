@@ -8,7 +8,7 @@ Now on to the Cookbook news.  There are now 449 cookbooks on the community site.
 
 ## Opscode Cookbook Releases
 ### [ark](http://community.opscode.com/cookbooks/ark) v0.0.1 - [jtimberman](http://community.opscode.com/users/jtimberman)
- * Joshua Timberman (@jtimberman), Bryan Berry (@bryanwb)
+ * Joshua Timberman [@jtimberman](http://twitter.com/jtimberman), Bryan Berry [@bryanwb](http://twitter.com/bryanwb)
  * new version w/ put, dump, cherry_pick, install, and build_with_make_install actions
 
 ### [mosh](http://community.opscode.com/cookbooks/mosh) v0.2.0 - [jtimberman](http://community.opscode.com/users/jtimberman)
@@ -47,33 +47,33 @@ Now on to the Cookbook news.  There are now 449 cookbooks on the community site.
  * light weight resource to deliver web application from tarball to your host
 
 ### [openvas](http://community.opscode.com/cookbooks/openvas) v0.0.30 - [jackl0phty](http://community.opscode.com/users/jackl0phty)
- * Gerald Hevener (@jackl0phty)
+ * Gerald Hevener [@jackl0phty](http://twitter.com/jackl0phty)
  * Install and configure [OpenVAS](http://www.openvas.org/index.html) ( Open Vulenability Assessment System ); a fork of the [Nessus] (http://www.nessus.org/products/nessus) project.
  * This iniital release could use some help and Redhat support, why not help Gerald out?
 
 ### [perlbrew](http://community.opscode.com/cookbooks/perlbrew) v0.1.0 - [xdg](http://community.opscode.com/users/xdg)
- * David Golden (@xdg)
+ * David Golden [@xdg](http://twitter.com/xdg)
  * Installs perlbrew and provides resource/provider types for managing perls with perlbrew.  
  * To date, this cookbook has only been designed and tested on the Ubuntu and Debian platforms.
 
 ### [users_solo](http://community.opscode.com/cookbooks/users_solo) v1.0.2 - [rgaiser](http://community.opscode.com/users/rgaiser)
- * Roberto Gaiser (@rgaiser)
+ * Roberto Gaiser [@rgaiser](http://twitter.com/rgaiser)
  * Creates users from a databag using chef-solo
  * To use data bags with chef-solo, you have to load them from a file in Chef 0.10.4 and higher
  * http://wiki.opscode.com/display/chef/Data+Bags#DataBags-UsingDataBagswithChefSolo
 
-## [minitest-handler](http://community.opscode.com/cookbooks/minitest-handler) v0.0.5 - [btm](http://community.opscode.com/users/btm)
- * Bryan McLellan (@btmspox)
+### [minitest-handler](http://community.opscode.com/cookbooks/minitest-handler) v0.0.5 - [btm](http://community.opscode.com/users/btm)
+ * Bryan McLellan [@btmspox](http://twitter.com/btmspox)
  * Installs and configures minitest-chef-handler
  * use minitest-chef-handler gem
  * Remove old tests
 
 ### [skype](http://community.opscode.com/cookbooks/skype) v0.0.1 - [aruntomar](http://community.opscode.com/users/aruntomar)
- * Arun Tomar (@aruntomar)
+ * Arun Tomar [@aruntomar](http://twitter.com/aruntomar)
  * This cookbook will install and configure skype on redhat & centos OS. 
 
-### atomic_penguin's changes
-By popular demand, Eric G. Wolfe (@atomic_penguin), has branched all of his community cookbooks into individual repos under his [Github account](http://github.com/atomic-penguin).
+### Eric G. Wolfe's changes
+By popular demand, Eric G. Wolfe [@atomic_penguin](http://twitter.com/atomic_penguin), has branched all of his community cookbooks into individual repos under his [Github account](http://github.com/atomic-penguin).
 
 Cookbooks that were updated include:
 

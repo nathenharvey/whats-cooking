@@ -8,7 +8,9 @@
 
 * Ranjib Dey recently added an article to his blog titled ["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7 things that Ranjib is trying out to keep his chef code base in shape.
 
-* One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook, role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira? Sometimes, I just knife would do what I mean.  Well, Maciej Pasternacki recently released a Knife plugin that will help! [knife-dwim](https://github.com/mpasternacki/knife-dwim) Just `gem install knife-dwim` and  use `knife dwim path/to/file` and the item will be uploaded to your Chef server correctly!
+* One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook, role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira? Sometimes, I just knife would do what I mean.  Well, Maciej Pasternacki [@mpasternacki](https://twitter.com/mpasternacki) recently released a Knife plugin that will help! [knife-dwim](https://github.com/mpasternacki/knife-dwim) Just `gem install knife-dwim` and  use `knife dwim path/to/file` and the item will be uploaded to your Chef server correctly!
+
+(The emphasis is on 'ma': MA-chay)
 
 * Bryan Berry [@bryanwb](http://twitter.com/bryanwb) updated [chef-ark cookbook on github](https://github.com/bryanwb/chef-ark).  **Bryan - is this different than [ark](http://community.opscode.com/cookbooks/ark) on the community site?**
 

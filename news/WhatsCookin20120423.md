@@ -1,6 +1,18 @@
-Hello food fight listeners and Chef enthusiasts! This is Nathen Harvey with "What's Cookin'"
-
 ## In the News:
+
+* Jeremiah Snapp created a [chef-repo](https://github.com/jeremiahsnapp/chef-repo) and [wiki](https://github.com/jeremiahsnapp/chef-repo/wiki) on github that aim to Demonstrate the Power of Chef, Librarian and Vagrant.
+
+* Bryan McLellan [@btmspox](http://twitter.com/btmspox) announced on the [chef mailing list](http://lists.opscode.com/sympa/arc/chef/2012-04/msg00323.html) the timeline for Chef 0.10.10.  Today, April 23, is the day that Opscode will review the remaining patches for Chef and "feature freeze."  The first release candidate should be out by the end of the week.
+
+* [$4,829-per-hour supercomputer built on Amazon cloud to fuel cancer research](http://arstechnica.com/business/news/2012/04/4829-per-hour-supercomputer-built-on-amazon-cloud-to-fuel-cancer-research.ars) - ...
+
+* [Chef:: Maintaining the shape](http://ranjib.posterous.com/chef-maintaining-the-shape) - ...
+
+* [knife-dwim](https://github.com/mpasternacki/knife-dwim) - ...
+
+* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) updated [chef-ark cookbook on github](https://github.com/bryanwb/chef-ark).  **Bryan - is this different than [ark](http://community.opscode.com/cookbooks/ark) on the community site?
+
+* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled ["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html)
 
 ## Cookbook Updates
 
@@ -71,6 +83,10 @@ Now on to the Cookbook news.  There are now 449 cookbooks on the community site.
 ### [skype](http://community.opscode.com/cookbooks/skype) v0.0.1 - [aruntomar](http://community.opscode.com/users/aruntomar)
  * Arun Tomar [@aruntomar](http://twitter.com/aruntomar)
  * This cookbook will install and configure skype on redhat & centos OS. 
+
+### [campfire](http://community.opscode.com/cookbooks/campfire) v0.0.3 - [cwjohnston](http://community.opscode.com/users/cwjohnston)
+  * Cameron Johnston [@cwjohnston](http://twitter.com/cwjohnston)
+  * This cookbook provides a campfire_msg resource, making it easier for chef recipies to play sounds or send messages to a chat room on the 37signals Campfire service. [https://github.com/cwjohnston/chef-campfire](https://github.com/cwjohnston/chef-campfire)
 
 ### Eric G. Wolfe's changes
 By popular demand, Eric G. Wolfe [@atomic_penguin](http://twitter.com/atomic_penguin), has branched all of his community cookbooks into individual repos under his [Github account](http://github.com/atomic-penguin).

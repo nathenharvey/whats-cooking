@@ -12,7 +12,7 @@
 
 * Bryan Berry [@bryanwb](http://twitter.com/bryanwb) updated [chef-ark cookbook on github](https://github.com/bryanwb/chef-ark).  **Bryan - is this different than [ark](http://community.opscode.com/cookbooks/ark) on the community site?**
 
-* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled ["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html)
+* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled ["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html) - This article explores some of the reasons why Chef was chosen after working with custom bash and per scripts and puppet.  It's a well written article that gives a nice introduction to some of the features of Chef.
 
 ## Cookbook Updates
 

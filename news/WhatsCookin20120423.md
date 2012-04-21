@@ -1,18 +1,35 @@
 ## In the News:
 
-* Jeremiah Snapp created a [chef-repo](https://github.com/jeremiahsnapp/chef-repo) and [wiki](https://github.com/jeremiahsnapp/chef-repo/wiki) on github that aim to Demonstrate the Power of Chef, Librarian and Vagrant.
+* Jeremiah Snapp created a [chef-repo](https://github.com/jeremiahsnapp/chef-repo) and 
+[wiki](https://github.com/jeremiahsnapp/chef-repo/wiki) on github that aim to Demonstrate the Power of Chef,
+Librarian and Vagrant.
 
-* Bryan McLellan [@btmspox](http://twitter.com/btmspox) announced on the [chef mailing list](http://lists.opscode.com/sympa/arc/chef/2012-04/msg00323.html) the timeline for Chef 0.10.10.  Today, April 23, is the day that Opscode will review the remaining patches for Chef and "feature freeze."  The first release candidate should be out by the end of the week.
+* Bryan McLellan [@btmspox](http://twitter.com/btmspox) announced on the 
+[chef mailing list](http://lists.opscode.com/sympa/arc/chef/2012-04/msg00323.html) the timeline for Chef 0.10.10.  
+Today, April 23, is the day that Opscode will review the remaining patches for Chef and "feature freeze."  The first 
+release candidate should be out by the end of the week.
 
-* Over on the ars technia site there was an article about a [$4,829-per-hour supercomputer built on Amazon cloud to fuel cancer research](http://arstechnica.com/business/news/2012/04/4829-per-hour-supercomputer-built-on-amazon-cloud-to-fuel-cancer-research.ars) - The article is about a 50,000 core supercomputer built on EC2.  (**Was this actually built usin Chef?  there's no mention of that in the article**) (**Bryan: Yes it was**).
+* Over on the ars technia site there was an article about a 
+[$4,829-per-hour supercomputer built on Amazon cloud to fuel cancer research](http://arstechnica.com/business/news/2012/04/4829-per-hour-supercomputer-built-on-amazon-cloud-to-fuel-cancer-research.ars)
+- The article is about a 50,000 core supercomputer built on EC2. 
 
-* Ranjib Dey recently added an article to his blog titled ["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7 things that Ranjib is trying out to keep his chef code base in shape.
+* Ranjib Dey recently added an article to his blog titled 
+["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7 
+things that Ranjib is trying out to keep his chef code base in shape.
 
-* One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook, role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira? Sometimes, I just knife would do what I mean.  Well, Maciej (The emphasis is on 'ma': MA-chay)  Pasternacki (Paster-not-ski) [@mpasternacki](https://twitter.com/mpasternacki) recently released a Knife plugin that will help! [knife-dwim](https://github.com/mpasternacki/knife-dwim) Just `gem install knife-dwim` and  use `knife dwim path/to/file` and the item will be uploaded to your Chef server correctly!
+* One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook, 
+role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira?
+Sometimes, I just knife would do what I mean.  Well, 
+Maciej (The emphasis is on 'ma': MA-chay)  Pasternacki (Paster-not-ski) 
+[@mpasternacki](https://twitter.com/mpasternacki) recently released a Knife plugin that will help! 
+[knife-dwim](https://github.com/mpasternacki/knife-dwim) Just `gem install knife-dwim` and  use 
+`knife dwim path/to/file` and the item will be uploaded to your Chef server correctly!
 
-* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) updated [chef-ark cookbook on github](https://github.com/bryanwb/chef-ark).  **Bryan - is this different than [ark](http://community.opscode.com/cookbooks/ark) on the community site? Bryan: it is the same**
-
-* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled ["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html) - This article explores some of the reasons why Chef was chosen after working with custom bash and per scripts and puppet.  It's a well written article that gives a nice introduction to some of the features of Chef, specifically how to java application stacks.
+* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled 
+["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html) - This article 
+explores some of the reasons why Chef was chosen after working with custom bash and per scripts and puppet.  It's a 
+well written article that gives a nice introduction to some of the features of Chef, specifically how to java 
+application stacks.
 
 ## Cookbook Updates
 

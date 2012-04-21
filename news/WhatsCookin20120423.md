@@ -59,6 +59,7 @@ application stacks.
 ### [chef_gem](http://community.opscode.com/cookbooks/chef_gem) v0.0.1 - [chrisroberts](http://community.opscode.com/users/chrisroberts)
  * Chirs Roberts
  * This is a temporary compat cookbook that provides the chef_gem resource to recipes on chef versions <= 0.10.8. The intended purpose is to allow proper omnibus usage of embedded gem set until the 0.10.10 release is officially provided.
+
 ### [nginx_simplecgi](http://community.opscode.com/cookbooks/nginx_simplecgi) v0.1.0 - [chrisroberts](http://community.opscode.com/users/chrisroberts)
  * Chirs Roberts
  * Provides SimpleCGI for NGINX

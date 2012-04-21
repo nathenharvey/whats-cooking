@@ -11,7 +11,7 @@ release candidate should be out by the end of the week.
 
 * Over on the ars technia site there was an article about a 
 [$4,829-per-hour supercomputer built on Amazon cloud to fuel cancer research](http://arstechnica.com/business/news/2012/04/4829-per-hour-supercomputer-built-on-amazon-cloud-to-fuel-cancer-research.ars)
-- The article is about a 50,000 core supercomputer built on EC2. 
+The article is about a 50,000 core supercomputer built on EC2. 
 
 * Ranjib Dey recently added an article to his blog titled 
 ["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7 

@@ -1,35 +1,46 @@
 ## In the News:
 
-* Jeremiah Snapp created a [chef-repo](https://github.com/jeremiahsnapp/chef-repo) and 
+* Jeremiah Snapp created a [chef-repo](https://github.com/jeremiahsnapp/chef-repo) and
 [wiki](https://github.com/jeremiahsnapp/chef-repo/wiki) on github that aim to Demonstrate the Power of Chef,
 Librarian and Vagrant.
 
-* Bryan McLellan [@btmspox](http://twitter.com/btmspox) announced on the 
-[chef mailing list](http://lists.opscode.com/sympa/arc/chef/2012-04/msg00323.html) the timeline for Chef 0.10.10.  
-Today, April 23, is the day that Opscode will review the remaining patches for Chef and "feature freeze."  The first 
+* Bryan McLellan [@btmspox](http://twitter.com/btmspox) announced on the
+[chef mailing list](http://lists.opscode.com/sympa/arc/chef/2012-04/msg00323.html) the timeline for Chef 0.10.10.
+Today, April 23, is the day that Opscode will review the remaining patches for Chef and "feature freeze."  The first
 release candidate should be out by the end of the week.
 
-* Over on the ars technia site there was an article about a 
+* Over on the ars technia site there was an article about a
 [$4,829-per-hour supercomputer built on Amazon cloud to fuel cancer research](http://arstechnica.com/business/news/2012/04/4829-per-hour-supercomputer-built-on-amazon-cloud-to-fuel-cancer-research.ars)
-The article is about a 50,000 core supercomputer built on EC2. 
+The article is about a 50,000 core supercomputer built on EC2.
 
-* Ranjib Dey recently added an article to his blog titled 
-["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7 
+* Ranjib Dey recently added an article to his blog titled
+["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7
 things that Ranjib is trying out to keep his chef code base in shape.
 
-* One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook, 
+* One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook,
 role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira?
-Sometimes, I just knife would do what I mean.  Well, 
-Maciej (The emphasis is on 'ma': MA-chay)  Pasternacki (Paster-not-ski) 
-[@mpasternacki](https://twitter.com/mpasternacki) recently released a Knife plugin that will help! 
-[knife-dwim](https://github.com/mpasternacki/knife-dwim) Just `gem install knife-dwim` and  use 
+Sometimes, I just knife would do what I mean.  Well,
+Maciej (The emphasis is on 'ma': MA-chay)  Pasternacki (Paster-not-ski)
+[@mpasternacki](https://twitter.com/mpasternacki) recently released a Knife plugin that will help!
+[knife-dwim](https://github.com/mpasternacki/knife-dwim) Just `gem install knife-dwim` and  use
 `knife dwim path/to/file` and the item will be uploaded to your Chef server correctly!
 
-* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled 
-["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html) - This article 
-explores some of the reasons why Chef was chosen after working with custom bash and per scripts and puppet.  It's a 
-well written article that gives a nice introduction to some of the features of Chef, specifically how to java 
+* Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled
+["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html) - This article
+explores some of the reasons why Chef was chosen after working with custom bash and per scripts and puppet.  It's a
+well written article that gives a nice introduction to some of the features of Chef, specifically how to java
 application stacks.
+
+* Matt Ray [@mattray](http://twitter.com/mattray) was at the OpenStack Design Summit & Conference last week and gave
+a presentation titled ["OpenStack Deployments with Chef"]( http://www.slideshare.net/mattray/openstack-deployments-with-chef).
+He discussed what Chef does, why it works well for OpenStack and the current state of Chef cookbooks for OpenStack.
+There's also a few slides discussing the roadmaps for OpenStack cookbooks, knife-openstack,
+Chef and Opscode's plans around OpenStack. Hopefully we'll have video to link to soon!
+
+* Book publisher O'Reilly has a link up for Stephen Nelson-Smith's [@lordcope](http://twitter.com/lordcope)
+["Chef: The Definitive Guide"](http://shop.oreilly.com/product/0636920025146.do) and lists a
+release date of September 2012. Estimated at 400 pages, I know this is a book a lot
+of people have really been looking forward to!
 
 ## Cookbook Updates
 
@@ -80,7 +91,7 @@ application stacks.
 
 ### [perlbrew](http://community.opscode.com/cookbooks/perlbrew) v0.1.0 - [xdg](http://community.opscode.com/users/xdg)
  * David Golden [@xdg](http://twitter.com/xdg)
- * Installs perlbrew and provides resource/provider types for managing perls with perlbrew.  
+ * Installs perlbrew and provides resource/provider types for managing perls with perlbrew.
  * To date, this cookbook has only been designed and tested on the Ubuntu and Debian platforms.
 
 ### [users_solo](http://community.opscode.com/cookbooks/users_solo) v1.0.2 - [rgaiser](http://community.opscode.com/users/rgaiser)
@@ -97,7 +108,7 @@ application stacks.
 
 ### [skype](http://community.opscode.com/cookbooks/skype) v0.0.1 - [aruntomar](http://community.opscode.com/users/aruntomar)
  * Arun Tomar [@aruntomar](http://twitter.com/aruntomar)
- * This cookbook will install and configure skype on redhat & centos OS. 
+ * This cookbook will install and configure skype on redhat & centos OS.
 
 ### [campfire](http://community.opscode.com/cookbooks/campfire) v0.0.3 - [cwjohnston](http://community.opscode.com/users/cwjohnston)
   * Cameron Johnston [@cwjohnston](http://twitter.com/cwjohnston)
@@ -116,11 +127,11 @@ Cookbooks that were updated include:
 * [el-sysctl](http://community.opscode.com/cookbooks/el-sysctl) v0.0.6
 * [gnome](http://community.opscode.com/cookbooks/gnome) v0.0.2
 * [x-windows](http://community.opscode.com/cookbooks/x-windows) v0.0.2
-* [snmp](http://community.opscode.com/cookbooks/snmp) v0.2.1 
-* [yumrepo](http://community.opscode.com/cookbooks/yumrepo) v0.15.4 
+* [snmp](http://community.opscode.com/cookbooks/snmp) v0.2.1
+* [yumrepo](http://community.opscode.com/cookbooks/yumrepo) v0.15.4
 * [dbench](http://community.opscode.com/cookbooks/dbench) v0.0.7
 * [certificate](http://community.opscode.com/cookbooks/certificate) v0.0.4
 * [krb5](http://community.opscode.com/cookbooks/krb5) v0.0.6
 
 Do you have cookbook news that you'd like to share or feedback on the show?  Please drop a line to info@foodfightshow.org
- 
+

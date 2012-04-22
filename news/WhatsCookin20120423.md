@@ -9,10 +9,6 @@ Librarian and Vagrant.
 Today, April 23, is the day that Opscode will review the remaining patches for Chef and "feature freeze."  The first
 release candidate should be out by the end of the week.
 
-* Over on the ars technia site there was an article about a
-[$4,829-per-hour supercomputer built on Amazon cloud to fuel cancer research](http://arstechnica.com/business/news/2012/04/4829-per-hour-supercomputer-built-on-amazon-cloud-to-fuel-cancer-research.ars)
-The article is about a 50,000 core supercomputer built on EC2.
-
 * Ranjib Dey recently added an article to his blog titled
 ["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7
 things that Ranjib is trying out to keep his chef code base in shape.

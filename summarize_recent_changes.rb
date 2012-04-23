@@ -9,7 +9,7 @@ require 'net/http'
 @cookbooks = @db['cookbooks']
 
 # lastest_cookbooks = @cookbooks.find.sort( [["updated_at", -1 ]] )
-lastest_cookbooks = @cookbooks.find.sort( [["updated_at", -1 ]] ).limit(150)
+lastest_cookbooks = @cookbooks.find.sort( [["updated_at", -1 ]] ).limit(50)
 open_cookbooks = []
 open_users = []
 lastest_cookbooks.each do |cb|
@@ -23,8 +23,7 @@ lastest_cookbooks.each do |cb|
     description = cb["description"]
     updated_at = cb["updated_at"]
     latest_version = cb["versions"][0].split("/").pop.gsub("_",".")
-    puts "### [#{name}](#{url}) v#{latest_version}"
-    puts " * [#{maintainer}](http://community.opscode.com/users/#{maintainer})"
+    puts "### [#{name}](#{url}) v#{latest_version} - [#{maintainer}](http://community.opscode.com/users/#{maintainer})"
     puts " * #{description}"
     puts " * #{updated_at}"
   end

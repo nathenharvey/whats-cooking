@@ -65,7 +65,7 @@ of people have really been looking forward to!
 
 ### [gitpaste](http://community.opscode.com/cookbooks/gitpaste) v0.0.3 - [chrisroberts](http://community.opscode.com/users/chrisroberts)
  * Installs and configures gitpaste pastebin app
- * GitPast is a GitHug Gist clone that allows you to deploy and create your own gist.github.com-like application. It is useful in an environment where you may not be able to use gist.github.com or alternatives.
+ * GitPaste is a GitHub Gist clone that allows you to deploy and create your own gist.github.com-like application. It is useful in an environment where you may not be able to use gist.github.com or alternatives.
 
 ### [chef_gem](http://community.opscode.com/cookbooks/chef_gem) v0.0.1 - [chrisroberts](http://community.opscode.com/users/chrisroberts)
  * Chirs Roberts

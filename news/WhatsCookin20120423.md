@@ -73,16 +73,16 @@ of people have really been looking forward to!
 
 ### [nginx_simplecgi](http://community.opscode.com/cookbooks/nginx_simplecgi) v0.1.0 - [chrisroberts](http://community.opscode.com/users/chrisroberts)
  * Chirs Roberts
- * Provides SimpleCGI for NGINX
+ * Provides SimpleCGI for NGINX.  This was cookbook was born out of the work done for COOK-1206 - Add NGINX support to nagios.
 
 ### [bag_config](http://community.opscode.com/cookbooks/bag_config) v2.0.0 - [chrisroberts](http://community.opscode.com/users/chrisroberts)
  * Chirs Roberts
- * Provides helpers for optional data bag configuration
- * Force hash type on encrypted bag items
+ * We've mentioned the bag_config cookbook on What's Cookin' before.  It provides a clean way to override node attributes with values from a databag.
+ * The latest changes force hash type on encrypted bag items
 
 ### [web](http://community.opscode.com/cookbooks/web) v0.0.1 - [melezhik](http://community.opscode.com/users/melezhik)
- * Alexey Melezhik
- * light weight resource to deliver web application from tarball to your host
+ * Alex Melezhik
+ * A simple light weight resource for deploying web sites into a directory.  It will fetch and unpack a tarball then create a symlink to the upacked directory.
 
 ### [openvas](http://community.opscode.com/cookbooks/openvas) v0.0.30 - [jackl0phty](http://community.opscode.com/users/jackl0phty)
  * Gerald Hevener [@jackl0phty](http://twitter.com/jackl0phty)
@@ -95,9 +95,12 @@ of people have really been looking forward to!
  * To date, this cookbook has only been designed and tested on the Ubuntu and Debian platforms.
 
 ### [carton](http://community.opscode.com/cookbooks/carton) v0.1.0 - [xdg](http://community.opscode.com/users/xdg)
- * Installs/Configures carton and provides a LWP
+ * David Golden [@xdg](http://twitter.com/xdg)
+ * This LWRP sets up a carton application as a runit service and passes through runit commands to start/stop or otherwise control the service.
+ * carton is a Perl dependency manage (aka Bundler for Perl)
 
 ### [linode](http://community.opscode.com/cookbooks/linode) v1.0.5 - [cap10morgan](http://community.opscode.com/users/cap10morgan)
+ * Wes Morgan [@wesmorgan](http://twitter.com/wesmorgan)
  * Collection of useful recipes for setting up Linodes
  
 ### [users_solo](http://community.opscode.com/cookbooks/users_solo) v1.0.2 - [rgaiser](http://community.opscode.com/users/rgaiser)

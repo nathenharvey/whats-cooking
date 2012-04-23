@@ -15,7 +15,7 @@ things that Ranjib is trying out to keep his chef code base in shape.
 
 * Andrew Crump is extending David Calavera's ["minitest-chef-handler](https://github.com/calavera/minitest-chef-handler)project with support for MiniTest::Spec and other goodness to make
 testing cookbooks awesome. He's looking for feedback so please a look if testing cookbooks is something you're interested in
-A good place to start are his ["example-tests"](https://github.com/calavera/minitest-chef-handler/blob/v0.4.0/examples/spec_examples/files/default/tests/minitest/example_test.rb)
+The ["example-tests"](https://github.com/calavera/minitest-chef-handler/blob/v0.4.0/examples/spec_examples/files/default/tests/minitest/example_test.rb) are a good place to start.
   
 * One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook,
 role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira?
@@ -27,8 +27,8 @@ Maciej (The emphasis is on 'ma': MA-chay)  Pasternacki (Paster-not-ski)
 
 * Bryan Berry [@bryanwb](http://twitter.com/bryanwb) wrote an article on the data.fao.org blog titled
 ["Managing data.fao.org with Chef"](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html) - This article
-explores some of the reasons why Chef was chosen after working with custom bash and per scripts and puppet.  It's a
-well written article that gives a nice introduction to some of the features of Chef, specifically how to java
+explores some of the reasons why Chef was chosen after working with custom bash and perl scripts and puppet.  It's a
+well written article that gives a nice introduction to some of the features of Chef, specifically how to use Chef with java
 application stacks.
 
 * Matt Ray [@mattray](http://twitter.com/mattray) was at the OpenStack Design Summit & Conference last week and gave

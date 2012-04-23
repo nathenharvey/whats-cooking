@@ -13,9 +13,9 @@ release candidate should be out by the end of the week.
 ["Chef:: Maintaining the shape"](http://ranjib.posterous.com/chef-maintaining-the-shape) - It's a collection of 7
 things that Ranjib is trying out to keep his chef code base in shape.
 
-* Andrew Crump is extending David Calavera's minitest-chef-handler project with support for MiniTest::Spec and other goodness to make
+* Andrew Crump is extending David Calavera's ["minitest-chef-handler](https://github.com/calavera/minitest-chef-handler)project with support for MiniTest::Spec and other goodness to make
 testing cookbooks awesome. He's looking for feedback so please a look if testing cookbooks is something you're interested in
- ["minitest-chef-handler](https://github.com/calavera/minitest-chef-handler), ["example-tests"](https://github.com/calavera/minitest-chef-handler/blob/v0.4.0/examples/spec_examples/files/default/tests/minitest/example_test.rb)
+A good place to start are his ["example-tests"](https://github.com/calavera/minitest-chef-handler/blob/v0.4.0/examples/spec_examples/files/default/tests/minitest/example_test.rb)
   
 * One thing that can be easy to forget when working with Chef is the correct knife syntax for uploading a cookbook,
 role, data bag, or environment to the Chef server.  I wonder if there's a ticket for this in Opscode's Jira?

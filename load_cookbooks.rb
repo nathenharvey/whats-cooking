@@ -63,5 +63,3 @@ while (start_at + cookbooks_per_request) < (total_cookbooks + cookbooks_per_requ
   stop_at = total_cookbooks
 end
 puts "\nFinished loading #{total_cookbooks} cookbooks."
-
-puts "Find the latest cookbooks using db.cookbooks.find({}, {cookbook_name: 1, cookbook_maintainer:1,updated_at:1}).sort({updated_at:-1})"

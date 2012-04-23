@@ -94,6 +94,12 @@ of people have really been looking forward to!
  * Installs perlbrew and provides resource/provider types for managing perls with perlbrew.
  * To date, this cookbook has only been designed and tested on the Ubuntu and Debian platforms.
 
+### [carton](http://community.opscode.com/cookbooks/carton) v0.1.0 - [xdg](http://community.opscode.com/users/xdg)
+ * Installs/Configures carton and provides a LWP
+
+### [linode](http://community.opscode.com/cookbooks/linode) v1.0.5 - [cap10morgan](http://community.opscode.com/users/cap10morgan)
+ * Collection of useful recipes for setting up Linodes
+ 
 ### [users_solo](http://community.opscode.com/cookbooks/users_solo) v1.0.2 - [rgaiser](http://community.opscode.com/users/rgaiser)
  * Roberto Gaiser [@rgaiser](http://twitter.com/rgaiser)
  * Creates users from a databag using chef-solo

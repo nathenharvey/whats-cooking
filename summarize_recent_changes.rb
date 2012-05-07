@@ -24,8 +24,8 @@ lastest_cookbooks.each do |cb|
     updated_at = cb["updated_at"]
     latest_version = cb["versions"][0].split("/").pop.gsub("_",".")
     puts "### [#{name}](#{url}) v#{latest_version} - [#{maintainer}](http://community.opscode.com/users/#{maintainer})"
-    puts " * #{description}"
-    puts " * #{updated_at}"
+    puts "  * #{description}"
+    puts "  * #{updated_at}"
   end
 end
 
